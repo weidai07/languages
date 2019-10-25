@@ -6,25 +6,7 @@ $(document).ready(function() {
     var python1 = $("#python option:selected").val();
     var js1 = $("#js option:selected").val();
     var all1 = $("#all option:selected").val();
-
-    // if ("#questions") {
-    //   $(".warning").show();
-    // }
-    // else if (ruby1==="yes") {
-    //   $(".r1").show();
-    // }
-    // else if(cs1==='yes') {
-    //   $(".c1").show();
-    // }
-    // else if(python1==='yes') {
-    //   $(".p1").show();
-    // }
-    // else if(js1==='yes') {
-    //   $(".j1").show();
-    // }
-    // else if(ruby1, cs1, python1, js1==='yes') {
-    //   $(".a1").show();
-    // }
+    // var q1 = $(".questions option:selected").val();
 
     if (ruby1==="yes"){
       $(".r1").show();
@@ -46,8 +28,28 @@ $(document).ready(function() {
       $(".a1").show();
     }
 
-    if (".questions"){
-      $(".warning").show();
+    // if (".questions"==="select"){
+    //   $(".warning").show();
+    // }
+
+    if (ruby1==="no"){
+      $(".r1").hide();
+    }
+
+    if (cs1==="no"){
+      $(".c1").hide();
+    }
+
+    if (python1==="no"){
+      $(".p1").hide();
+    }
+
+    if (js1==="no"){
+      $(".j1").hide();
+    }
+
+    if (all1==="no"){
+      $(".a1").hide();
     }
 
   });
