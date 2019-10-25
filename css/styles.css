@@ -1,4 +1,17 @@
-.img {
+img {
   width: : 400px;
   height:  400px;
+}
+
+.Container {
+   text-align: center;
+ }
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+body {
+  background-color: skyblue;
 }
