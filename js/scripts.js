@@ -1,10 +1,17 @@
 $(document).ready(function() {
-  $("#x").submit(function(event) {
+  $("form.languages").submit(function(event) {
     event.preventDefault();
-    var ruby = $("#x").val();
-    var cs = $("#x").val();
-    var python = $("#x").val();
-    var js = $("#x").val();
-    var all = $("#x").val();
+    var ruby1 = $("#ruby option:selected").val();
+    var cs1 = $("#cs option:selected").val();
+    var python1 = $("#python option:selected").val();
+    var js1 = $("#js option:selected").val();
+    var all1 = $("#all option:selected").val();
+
+    if (".questions") {
+
+    }
+    else {
+      $(".warning").show();
+    }
   });
 });

@@ -15,3 +15,12 @@ ul {
 body {
   background-color: skyblue;
 }
+
+.survey {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.warning {
+  display: none;
+}
